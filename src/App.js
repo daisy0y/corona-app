@@ -1,11 +1,17 @@
-import './App.css';
+import React from 'react';
+import 'antd/dist/antd.css';
+import './index.css';
+import './App.css'
+import MainLayout from './layout/MainLayout';
+import Internal from './components/Internal';
 
-function App() {
-  return (
-    <div className="App">
-      <div>test</div>
-    </div>
-  );
-}
 
-export default App;
+const App = ()=>{
+
+  
+    return (
+   <Internal></Internal>
+    );
+  }
+
+export default App
